@@ -1,0 +1,23 @@
+{
+  "name": "cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "e2e-test": "cucumber-js e2e --format json:e2e-test-reports/cucumber_report.json",
+    "e2e-test-report": "node generate-reports"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chromedriver": "^100.0.0",
+    "cross-env": "^7.0.3",
+    "cucumber-html-reporter": "^5.5.0",
+    "selenium-webdriver": "^4.1.1"
+  }
+}
